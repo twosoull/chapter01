@@ -17,6 +17,7 @@ public class Ex13 {
 //		sc.close();
 		
 		while(true) {
+			
 			num = sc.nextInt();
 			result = result + num;
 			System.out.println("합계:"+ result);	
@@ -24,12 +25,9 @@ public class Ex13 {
 			if(num==0) {
 				System.out.println("종료");
 				break;
+				
 			}
-			
 		}
-		
-		
-		
 		sc.close();
 		
 	}
